@@ -5,3 +5,9 @@ from django.shortcuts import render
 
 def accueil(request):
     return render(request, 'index.html')
+
+
+
+# Vue pour la page Projets
+def projets(request):
+    return render(request, "projets.html")
