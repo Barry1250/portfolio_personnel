@@ -11,3 +11,7 @@ def accueil(request):
 # Vue pour la page Projets
 def projets(request):
     return render(request, "projets.html")
+
+# Vue pour la page Compétences
+def competences(request):
+    return render(request, "competences.html")
